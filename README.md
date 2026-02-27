@@ -24,11 +24,11 @@ Setup
 Clone the repository and configure the environment before launching the app.
 
 1. **Prerequisites**
-   - Install Python 3.11+ and keep it up to date.
+   - Install Python 3.12+ and keep it up to date.
    - Have a Google Cloud project with the Generative AI API enabled and a valid API key (or service account credentials).
 
 2. **Environment**
-   - Copy `.env.example` (if available) to `.env` or create a `.env` file at the project root.
+   - Create a `.env` file at the project root.
    - Add your key:
 
      ```
