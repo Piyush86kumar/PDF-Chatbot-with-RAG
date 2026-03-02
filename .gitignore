@@ -8,3 +8,5 @@ venv/
 __pycache__/
 
 .vscode/
+*.pyc                 # compiled Python files
+.DS_Store             # Mac system file
