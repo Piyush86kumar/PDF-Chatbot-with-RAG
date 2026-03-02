@@ -34,7 +34,7 @@ Setup
 Clone the repository and configure the environment before launching the app.
 
 1. **Prerequisites**
-   - Install Python 3.12+ and keep it up to date.
+   - Install Python 3.12.12
    - Have a Google Cloud project with the Generative AI API enabled and a valid API key (or service account credentials).
 
 2. **Environment**
@@ -55,6 +55,12 @@ Clone the repository and configure the environment before launching the app.
      .venv\\Scripts\\Activate.ps1   # PowerShell
      .venv\\Scripts\\activate.bat   # cmd.exe
      source .venv/bin/activate      # Bash
+     ```
+     or 
+     ```
+     conda create -n venv python=3.12.12  #for creating venv in conda folder
+     conda create venv -p python=3.12.12  #for creating venv in current folder
+     conda activate "venv"                #try venv address if facing error"
      ```
 
    - Install the pinned packages:
