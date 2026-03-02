@@ -8,7 +8,9 @@ PDF Chatbot with RAG is a Streamlit-powered demo that lets you ask natural-langu
 How it works
 ------------
 
-![System Architecture](assets/architecture.png)
+<p align="center">
+  <img src="assets\System_architecture.png" alt="System Architecture" width="600">
+</p>
 
 1. A sidebar workflow handles file selection: upload your own PDF or choose one of the curated samples that live in `sample_pdf/`.
 2. Once the document is confirmed, `rag_pipelline.py` extracts text with `PyPDF2`, splits it into 2,500-character chunks, embeds each chunk with Gemini embeddings, and stores the vectors in FAISS in memory.
