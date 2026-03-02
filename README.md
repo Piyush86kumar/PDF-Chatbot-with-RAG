@@ -83,9 +83,5 @@ Tips
 ----
 - Keep questions focused so Gemini can stay concise and reuse the retrieved chunks that are shown in the expanders.
 - Use the **Clear & Reset** button before switching documents to avoid leftover state.
-- If embeddings hit rate limits, wait a minute—`rag_pipelline.py` already throttles calls, but the console also logs retries.
+- This project/demo currenlty uses the free tier of Google gemini API and has limited number of requests per day
 
-Next steps
-----------
-1. Persist FAISS to disk or a managed vector database if you need to reuse vector stores across sessions.
-2. Add tests that cover chunk creation, embedding retries, and agent responses so you can refactor with confidence.
